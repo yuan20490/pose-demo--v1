@@ -1,0 +1,11 @@
+# 用 Python 3.10 ~ 3.12，别用 3.13（部分 wheel 还没跟上）
+mediapipe>=1.2.0,<1.3
+opencv-python>=4.9.0
+numpy>=1.24
+
+# M3 体感控制时才需要：
+# pyautogui>=0.9.54
+# M4 GUI 时才需要：
+# streamlit>=1.30
+# matplotlib>=3.8
+# pyinstaller>=6.0
